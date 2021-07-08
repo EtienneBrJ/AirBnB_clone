@@ -5,7 +5,7 @@ header {
     border-bottom: 1px solid #CCCCCC;
 }
 
-.logo {
-    background-image: url(../images/logo_hbnb.png);
+header img {
+    height: 100%;
     margin-left: 20px;
 }
