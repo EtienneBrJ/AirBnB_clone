@@ -20,16 +20,15 @@ section.filters button {
     top: 11px;
 }
 
+section.filters button:hover {
+    opacity: 0.9;  
+}
 section.filters .locations {
     border-right: 1px solid #DDDDDD;
 }
 
-section.filters button:hover {
-    opacity: 0.9;  
-}
-
 .locations, .amenities {
-    width: 25%;
+    width: 30%;
     height: 100%;
 }
 
@@ -55,15 +54,17 @@ ul.popover {
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     list-style-type: none;
+    position: relative;
 }
 
 .amenities:hover .popover,
 .locations:hover .popover{
+    z-index: 1;
     visibility: visible;
 }
 
 .popover li {
-    margin: 15px
+    margin: 15px;
 }
 
 .popover h2 {

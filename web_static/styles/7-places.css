@@ -4,7 +4,6 @@ section.places {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
 }
 
 section.places h1 {
@@ -33,3 +32,4 @@ section.places h2 {
     line-height: auto;
     text-align: center;
 }
+
