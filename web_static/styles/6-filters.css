@@ -27,7 +27,7 @@ section.filters .locations {
     border-right: 1px solid #DDDDDD;
 }
 
-.locations, .amenities {
+section.filters .locations ,section.filters .amenities {
     width: 30%;
     height: 100%;
 }
